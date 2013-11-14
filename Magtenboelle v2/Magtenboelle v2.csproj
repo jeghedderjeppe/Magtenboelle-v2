@@ -63,10 +63,10 @@
     </Compile>
     <Compile Include="IListable.cs" />
     <Compile Include="Klasser\BBResClass.cs" />
-    <Compile Include="BBRservationsInfo.xaml.cs" />
+    <Compile Include="Info vinduer\BBRservationsInfo.xaml.cs" />
     <Compile Include="Klasser\customers.cs" />
     <Compile Include="Klasser\EventClass.cs" />
-    <Compile Include="EventInformation.xaml.cs" />
+    <Compile Include="Info vinduer\EventInformation.xaml.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -74,7 +74,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Klasser\MTBResClass.cs" />
-    <Compile Include="MTBReservationsInfo.xaml.cs" />
+    <Compile Include="Info vinduer\MTBReservationsInfo.xaml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
