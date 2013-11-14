@@ -13,6 +13,7 @@ namespace Magtenboelle_v2 {
 		private int _phoneNum;
 		private string email;
 		private static int autoIncrementId = 0;
+		public static List<Customer> customerList = new List<Customer>();
 
 		public int Id {
 			get { return _id; }
