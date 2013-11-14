@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tabWindows {
+namespace Magtenboelle_v2 {
 	public class Customer {
 		private int _id;
 		private string _name;
