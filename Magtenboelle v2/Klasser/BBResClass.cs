@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Magtenboelle_v2
 {
-    class BBResClass
+    class BBResClass : IListable
     {
     }
 }

@@ -61,6 +61,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="IListable.cs" />
     <Compile Include="Klasser\BBResClass.cs" />
     <Compile Include="BBRservationsInfo.xaml.cs" />
     <Compile Include="Klasser\customers.cs" />
