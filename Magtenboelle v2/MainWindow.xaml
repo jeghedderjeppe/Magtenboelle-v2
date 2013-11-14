@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="647" Width="900">
     <Grid>
-        <TabControl HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="892" Margin="0,0,0,-80">
+        <TabControl x:Name="magtenboelleWindow" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="892" Margin="0,0,0,-80">
             <TabItem Header="Kundekartotek">
                 <Grid Background="#FFE5E5E5" Margin="0,11,0,-11">
                     <Grid.ColumnDefinitions>
