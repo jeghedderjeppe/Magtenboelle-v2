@@ -61,16 +61,19 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="BBResClass.cs" />
-    <Compile Include="customers.cs" />
-    <Compile Include="EventClass.cs" />
+    <Compile Include="Klasser\BBResClass.cs" />
+    <Compile Include="BBRservationsInfo.xaml.cs" />
+    <Compile Include="Klasser\customers.cs" />
+    <Compile Include="Klasser\EventClass.cs" />
+    <Compile Include="EventInformation.xaml.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MTBResClass.cs" />
+    <Compile Include="Klasser\MTBResClass.cs" />
+    <Compile Include="MTBReservationsInfo.xaml.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
