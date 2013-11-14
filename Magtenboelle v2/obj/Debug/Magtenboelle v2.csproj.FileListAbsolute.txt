@@ -9,3 +9,12 @@ c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboell
 c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.csproj.GenerateResource.Cache
 C:\Users\Sille\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\bin\Debug\Magtenboelle v2.exe.config
 C:\Users\Jeppe\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\bin\Debug\Magtenboelle v2.exe.config
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\bin\Debug\Magtenboelle v2.exe.config
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.csprojResolveAssemblyReference.cache
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\MainWindow.baml
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\MainWindow.g.cs
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\App.g.cs
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\Magtenboelle v2_MarkupCompile.cache
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.g.resources
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\Magtenboelle_v2.Properties.Resources.resources
+C:\Users\Seeke\Documents\GitHub\Magtenboelle-v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.csproj.GenerateResource.Cache

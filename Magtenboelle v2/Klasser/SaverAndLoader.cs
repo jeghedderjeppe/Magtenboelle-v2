@@ -33,7 +33,7 @@ namespace Magtenboelle_v2 {
 			}
 		}
 
-		public static void ObjectToJsonString(List<Customer> listObject) {
+		private static void ObjectToJsonString(List<Customer> listObject) {
 			string source = JsonConvert.SerializeObject(listObject);
 			//Console.WriteLine(source);
 			WriteToFile(source, @"customer-json.txt");
