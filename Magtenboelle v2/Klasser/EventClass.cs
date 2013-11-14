@@ -11,7 +11,7 @@ namespace Magtenboelle_v2
         //constructor
         public EventClass(string eventName, DateTime startDate, DateTime endDate, int numberOfParticipant, double pricePrPerson)
         {
-            Name = eventName;
+            EventName = eventName;
             StartDate = startDate;
             EndDate = endDate;
             NumberOfParticipant = numberOfParticipant;
@@ -20,7 +20,7 @@ namespace Magtenboelle_v2
 
         //backend fields
         int _id;
-        string _name;
+        string _eventName;
         DateTime _startDate;
         DateTime _endDate;
         int _numberOfParticipant;
@@ -32,10 +32,10 @@ namespace Magtenboelle_v2
             get { return _id; }
             set { _id = value; }
         }
-        public string Name
+        public string EventName
         {
-            get { return _name; }
-            set { _name = value; }
+            get { return _eventName; }
+            set { _eventName = value; }
         }
         public DateTime StartDate
         {
