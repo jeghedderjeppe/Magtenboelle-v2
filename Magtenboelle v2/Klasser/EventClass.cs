@@ -9,11 +9,12 @@ namespace Magtenboelle_v2
     class EventClass : IListable
     {
         //constructor
-        public EventClass(string eventName, DateTime startDate, DateTime endDate, int numberOfParticipant, double pricePrPerson)
+        public EventClass(string eventName, DateTime startDate, DateTime endDate, string eventDescription, int numberOfParticipant, double pricePrPerson)
         {
             EventName = eventName;
             StartDate = startDate;
             EndDate = endDate;
+            EventDescription = eventDescription;
             NumberOfParticipant = numberOfParticipant;
             PricePrPerson = pricePrPerson;
         }
@@ -23,6 +24,7 @@ namespace Magtenboelle_v2
         string _eventName;
         DateTime _startDate;
         DateTime _endDate;
+        string _eventDescription;
         int _numberOfParticipant;
         double _pricePrPerson;
 
@@ -46,6 +48,11 @@ namespace Magtenboelle_v2
         {
             get { return _endDate; }
             set { _endDate = value; }
+        }
+        public string EventDescription
+        {
+            get { return _eventDescription; }
+            set { _eventDescription = value; }
         }
         public int NumberOfParticipant
         {
