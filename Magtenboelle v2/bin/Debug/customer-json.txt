@@ -1,0 +1,1 @@
+[{"Adress":{"StreetName":"Odensevej 17","PostCode":5000,"City":"Odense","Country":null},"Id":0,"Name":"anders","Age":23,"PhoneNum":47583928,"Email":"lars@gmail.com"},{"Adress":{"StreetName":"Vejlevej 2","PostCode":5000,"City":"Odense","Country":null},"Id":1,"Name":"jens","Age":45,"PhoneNum":83619374,"Email":"jens@gmail.com"}]
