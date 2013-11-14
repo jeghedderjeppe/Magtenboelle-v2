@@ -1,0 +1,9 @@
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\bin\Debug\Magtenboelle v2.exe.config
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.csprojResolveAssemblyReference.cache
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\MainWindow.baml
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\MainWindow.g.cs
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\App.g.cs
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle v2_MarkupCompile.cache
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.g.resources
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle_v2.Properties.Resources.resources
+c:\users\jeppe\documents\visual studio 2012\Projects\Magtenboelle v2\Magtenboelle v2\obj\Debug\Magtenboelle v2.csproj.GenerateResource.Cache
