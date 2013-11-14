@@ -8,72 +8,51 @@ namespace Magtenboelle_v2
 {
     class BBResClass : IListable
     {
-        {   //3 variabler, som har en property hver.
-        int _age;
-        double _weight;
-        bool _memberOfCycleUnion;
+        //Constructor 
+        public BedAndBreakFastClass(DateTime date, string firstname, string lastname, string pets, string customersplans )
+        {
+             Firstname = firstname;
+             Lastname = lastname;
+             Pets = pets;
+             Customersplans = customersplans;
+             Date = date;
+        }
+
+        //Backend Fields
+        string _firstname;
+        string _lastname;
+        string _pets;
+        string customersplans;
         DateTime _date;
-        string _firstName;
-        string _lastName;
-      
-       
 
-      
-        //En constructor til de kunder, som gerne vil bestille tis på MTB-banen(uden at leje cykler)
-        public MTB_ReservationsKlasse(string firstName, string lastName, DateTime date, int age, bool memberOfCycleUnion)
-        {
-            Age = age;
-            MemberOfCycleUnion = memberOfCycleUnion;
-            Date = date;
-            FirstName = firstName;
-            LastName = lastName;
-
-        }
-
-        //En constructor til de kunder, som gerne vil bestille tid på MTB-banen og leje cykler
-        public MTB_ReservationsKlasse(DateTime date, int age, double weight, bool memberOfCycleUnion)
-        {
-            Age = age;
-            Weight = weight;
-            MemberOfCycleUnion = memberOfCycleUnion;
-            Date = date;
-        }
-
-        public int Age
-        {
-            get { return _age; }
-            set { _age = value; }
-        }
-
-        public double Weight
-        {
-            get { return _weight; }
-            set { _weight = value; }
-        }
-
-        public bool MemberOfCycleUnion
-        {
-            get { return _memberOfCycleUnion; }
-            set { _memberOfCycleUnion = value; }
-        }
-        
         public DateTime Date
         {
             get { return _date; }
             set { _date = value; }
         }
-      
-        public string FirstName
+
+        public string Customersplans
         {
-            get { return _firstName; }
-            set { _firstName = value; }
+            get { return customersplans; }
+            set { customersplans = value; }
         }
 
-        public string LastName
+        public string Pets
         {
-            get { return _lastName; }
-            set { _lastName = value; }
+            get { return _pets; }
+            set { _pets = value; }
         }
-    }
+
+        public string Lastname
+        {
+            get { return _lastname; }
+            set { _lastname = value; }
+        }
+
+        public string Firstname
+        {
+            get { return _firstname; }
+            set { _firstname = value; }
+        }
     }
 }
