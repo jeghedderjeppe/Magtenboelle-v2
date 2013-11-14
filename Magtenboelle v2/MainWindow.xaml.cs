@@ -32,6 +32,9 @@ namespace Magtenboelle_v2
         public MainWindow()
         {
             InitializeComponent();
+
+			//SaverAndLoader.LoadCustomer();
+			//listBCustomers.ItemsSource = Customer.customerList;
         }
 
         //this initialize the different tabs only on when the tabs are pressed and not when the program initialize 
