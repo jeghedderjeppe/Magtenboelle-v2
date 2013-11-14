@@ -9,32 +9,41 @@ namespace Magtenboelle_v2
     class BBResClass : IListable
     {
         //Constructor 
-        public BedAndBreakFastClass(DateTime date, string firstname, string lastname, string pets, string customersplans )
+        public BBResClass(DateTime date, string firstname, string lastname, string pets, string customersplans)
         {
              Firstname = firstname;
              Lastname = lastname;
              Pets = pets;
              Customersplans = customersplans;
-             Date = date;
+             StartDate = startDate;
+             EndDate = endDate;
+             TypeRes = typeRes;
         }
 
         //Backend Fields
         string _firstname;
         string _lastname;
         string _pets;
-        string customersplans;
-        DateTime _date;
+        string _customersplans;
+        DateTime _startDate;
+        DateTime _endDate;
+        string _typeRes;
 
-        public DateTime Date
+        public DateTime StartDate
         {
-            get { return _date; }
-            set { _date = value; }
+            get { return _startDate; }
+            set { _startDate = value; }
+        }
+        public DateTime EndDate
+        {
+            get { return _endDate; }
+            set { _endDate = value; }
         }
 
         public string Customersplans
         {
-            get { return customersplans; }
-            set { customersplans = value; }
+            get { return _customersplans; }
+            set { _customersplans = value; }
         }
 
         public string Pets
@@ -53,6 +62,11 @@ namespace Magtenboelle_v2
         {
             get { return _firstname; }
             set { _firstname = value; }
+        }
+        public string TypeRes
+        {
+            get { return _typeRes; }
+            set { _typeRes = value; }
         }
     }
 }
