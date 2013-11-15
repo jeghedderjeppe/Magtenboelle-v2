@@ -13,7 +13,7 @@ namespace Magtenboelle_v2 {
 		}
 
 		public static void SaveCustomer(List<Customer> customer) {
-			ObjectToJsonString(customer);
+			ObjectToJsonString(customer, @"customer-json.txt");
 		}
 
 
@@ -33,18 +33,13 @@ namespace Magtenboelle_v2 {
 			}
 		}
 
-		private static void ObjectToJsonString(List<Customer> listObject) {
+		private static void ObjectToJsonString(List<Customer> listObject, string fileName) {
 			string source = JsonConvert.SerializeObject(listObject);
-			//Console.WriteLine(source);
-			WriteToFile(source, @"customer-json.txt");
+			WriteToFile(source, fileName);
 		}
 
 		private static void JsonStringToObject(String jsonString) {
 			Customer.customerList = JsonConvert.DeserializeObject<List<Customer>>(jsonString);
-			//List<Customer> 
-			/*foreach(UserData user in users) {
-				userLib[user.idNumber] = user;
-			}*/
 		}
 	}
 }
